@@ -1,7 +1,9 @@
-|                     | ![all_texts](All_texts_wide2.png)              |                   |
-| ----------------------------------- | ----------------------------------- | ----------------------------------- |
-|                     | Word Cloud of top 1000 terms in all texts after removal of stopwords          |                   |
-
+<p align="center">
+  <img src="All_texts_wide2.png" width="800">
+</p>
+<p align="center">
+Word Cloud of top 1000 terms in all texts after removal of stopwords)
+</p>
 
 # Ancient Texts in Translation
 
@@ -18,16 +20,16 @@
 This project has five notebooks. Each notebook has an accompanying report
 
 #### *NLP section*
-* **Notebook Part I: extensive EDA**
+* **Notebook Part I: Extensive EDA**
 >Cleaning, wrangling, statistical analyses, and visualizations of data set\
 >A description of contents and discussion of why certain transformations were made
   
-* **Notebook Part II: sentiment**
+* **Notebook Part II: Sentiment**
 >Used regex extensively to prepare text for analyses\
 >Used TextBlob and Vader to acquire scores\
 >Aggregated results by genre and featured god; created visuals
 
-* **Notebook Part III: counts and weights**
+* **Notebook Part III: Counts, Frequency, and Weights**
 >Tokenized and lemmatized text for analysis using NLTK and regex
 >> Lemmatization was selected over stemming because stemming would remove all sense of words\
 >Got word counts and aggregated by genre, god, and person\
@@ -36,7 +38,7 @@ This project has five notebooks. Each notebook has an accompanying report
 >Created top five weighted 3>4 gram dictionary
 >Aggregated by genre, god, and person 
 
-* **Appendix a: word clouds**
+* **Appendix A: Word Clouds**
 >Used WordCloud to create multiple word clouds by genre, god, and person 
 
 #### *Machine Learning Section*
