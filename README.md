@@ -2,7 +2,7 @@
   <img src="All_texts_wide2.png" width="800">
 </p>
 <p align="center">
-Word Cloud of top 1000 terms in all texts after removal of stopwords)
+Word Cloud of top 1000 terms in all texts after removal of stopwords
 </p>
 
 # Ancient Texts in Translation
