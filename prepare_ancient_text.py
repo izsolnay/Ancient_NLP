@@ -103,12 +103,3 @@ def prepare_text(text):
     return processed_text
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
