@@ -134,6 +134,3 @@ def get_test_scores(model_name:str, preds, y_test_data):
     return table
     
     
-    
-    
-  
