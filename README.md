@@ -48,7 +48,7 @@ This project has five notebooks. Each notebook has an accompanying report
 > Extracted feature importance metrics for both models\
 > Evaluated the superior model using test data to assess its performance
      
-* **Notebook Part III: K-means clustering model**
+* **Notebook Part V: K-means clustering model**
 
 
 #### *Appendices*
