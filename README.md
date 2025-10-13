@@ -30,22 +30,33 @@ This project has five notebooks. Each notebook has an accompanying report
 >Aggregated results by genre and featured god; created visuals
 
 * **Notebook Part III: Counts, Frequency, and Weights**
->Tokenized and lemmatized text for analysis using NLTK and regex
->> Lemmatization was selected over stemming because stemming would remove all sense of words\
->Got word counts and aggregated by genre, god, and person\
+>Tokenized and lemmatized text for analysis using NLTK and regex\
+>Calculated feature `word count`\
 >Created top five words dictionary by count\
 >Created top five weighted bi-grams dictionary\
->Created top five weighted 3>4 gram dictionary
+>Created top five weighted 3>4 gram dictionary\
 >Aggregated by genre, god, and person 
 
-* **Appendix A: Word Clouds**
->Used WordCloud to create multiple word clouds by genre, god, and person 
-
-#### *Machine Learning Section*
+#### *Machine Learning Section with Tokenization*
 * **Notebook Part III: Random Forest and XGBoost models**
-> 
+> Created hstack feature that includes new features: `top_word_freq`, `divine_power_count`, and `divine_power_weighted`\
+> Collinearity Assessment, calculating VIF and generating a Pearson correlation coefficient matrix\
+> Configured CountVectorizer to produce a feature matrix that captures 2-grams and 3-grams\
+> Constructed a Random Forest model using both training and validation datasets\
+> Developed an XGBoost model using both training and validation datasets\
+> Assessed model performance by creating confusion matrices, plotting ROC curves and calculating AUC scores, and plotting a Precision-Recall Curve\
+> Extracted feature importance metrics for both models\
+> Evaluated the superior model using test data to assess its performance
      
 * **Notebook Part III: K-means clustering model**
+
+
+#### *Appendices*
+* **Appendix a: Word Clouds**
+>Used WordCloud to create multiple word clouds by genre, god, and person
+
+* **Appendix b: Hypothesis Testing**
+>Performed 3 two-sample hypothesis tests (t-tests) to ascertain if there is a statistically significant difference or a random sampling occurrence in mean by target variable `is_hymn` and the features: `word_count`, `whole_polarity`, and `whole_subjectivity`
 
 ### What this is
 An experiment using modern NLP tools and predictive algorithms on texts in translation
