@@ -38,7 +38,7 @@ This project has five notebooks. Each notebook has an accompanying report
 >Aggregated by genre, god, and person 
 
 #### *Machine Learning Section with Tokenization*
-* **Notebook Part III: Random Forest and XGBoost models**
+* **Notebook Part IV: Random Forest and XGBoost models**
 > Created hstack feature that includes new features: `top_word_freq`, `divine_power_count`, and `divine_power_weighted`\
 > Collinearity Assessment, calculating VIF and generating a Pearson correlation coefficient matrix\
 > Configured CountVectorizer to produce a feature matrix that captures 2-grams and 3-grams\
